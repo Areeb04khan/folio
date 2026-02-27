@@ -25,10 +25,10 @@ const ContactSection = () => {
     setError("");
     try {
       await emailjs.sendForm(
-        "YOUR_SERVICE_ID",   // ← replace
-        "YOUR_TEMPLATE_ID",  // ← replace
+        "service_nelr00t",   // ← replace
+        "template_5wgfcxl",  // ← replace
         formRef.current!,
-        "YOUR_PUBLIC_KEY"    // ← replace
+        "P9H7xWcY63tQrUeT1"    // ← replace
       );
       setSent(true);
       formRef.current?.reset();
