@@ -18,4 +18,8 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  export default defineConfig({
+  base: 'folio',
+  plugins: [react()],
+})
 }));
