@@ -42,8 +42,14 @@ const HeroSection = () => {
           style={{ animationDelay: "0.6s" }}
         >
           <a
+            href="#case-studies"
+            className="px-6 py-2.5 rounded-md bg-primary text-primary-foreground font-medium text-sm hover:shadow-[0_0_20px_hsl(var(--primary)/0.4)] transition-all duration-300 animate-pulse-glow"
+          >
+            View Case Studies
+          </a>
+          <a
             href="#projects"
-            className="px-6 py-2.5 rounded-md bg-primary text-primary-foreground font-medium text-sm hover:shadow-[0_0_20px_hsl(var(--primary)/0.4)] transition-all duration-300"
+            className="px-6 py-2.5 rounded-md border border-primary/30 text-primary font-medium text-sm hover:bg-primary/10 transition-all duration-300"
           >
             View Projects
           </a>
