@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://areebkhan.com/sitemap.xml
+Sitemap: https://areebkhan-folio.vercel.app/sitemap.xml
