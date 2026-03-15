@@ -47,10 +47,7 @@ const HeroSection = () => {
           >
             View Case Studies
           </a>
-          <a
-            href="#projects"
-            className="px-6 py-2.5 rounded-md border border-primary/30 text-primary font-medium text-sm hover:bg-primary/10 transition-all duration-300"
-          >
+           <a
            href="/Areeb_Khan_Resume.pdf"
   download
   className="px-6 py-2.5 rounded-md bg-primary text-black font-semibold text-sm hover:bg-primary/80 transition-all duration-300 flex items-center gap-2"
@@ -62,9 +59,13 @@ const HeroSection = () => {
   </svg>
   Download Resume
 </a>
-            View Projects
-          </a>
           <a
+            href="#projects"
+            className="px-6 py-2.5 rounded-md border border-primary/30 text-primary font-medium text-sm hover:bg-primary/10 transition-all duration-300"
+          >  View Projects
+          </a>
+         
+                    <a
             href="#contact"
             className="px-6 py-2.5 rounded-md border border-border text-foreground font-medium text-sm hover:border-primary/50 hover:text-primary transition-all duration-300"
           >
