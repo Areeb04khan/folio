@@ -48,7 +48,7 @@ const HeroSection = () => {
             View Case Studies
           </a>
            <a
-           href="/public/AreebKhan_SOC.pdf"
+           href="/AreebKhan_SOC.pdf"
   download
   className="px-6 py-2.5 rounded-md bg-primary text-black font-semibold text-sm hover:bg-primary/80 transition-all duration-300 flex items-center gap-2"
 >
